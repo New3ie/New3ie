@@ -4,19 +4,17 @@ from re import findall as fa
 from urllib3.exceptions import InsecureRequestWarning
 from concurrent.futures import ThreadPoolExecutor
 from os import system
+from colorama import init
 req.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 
-# kng = '\33[93m'
-# mrh = '\33[91m'
-# pth = '\33[m'
-# ijo = '\33[92m'
-# ppl = '\33[95m'
-# br = '\33[94m'
-mrh = system('color 4')
-ijo = system('color 2')
-kng = system('color 6')
-ppl = system('color 5')
-pth = system{'color 7')
+init()
+kng = '\33[93m'
+mrh = '\33[91m'
+pth = '\33[m'
+ijo = '\33[92m'
+ppl = '\33[95m'
+br = '\33[94m'
+
 
 ok = []
 
